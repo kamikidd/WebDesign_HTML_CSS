@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="http://www.example.com/subscribe.php" method="get">
+        <p>This is where the form controls will appear.</p>
+        <p>Username:</p>
+        <input type="text" name="username" maxlength="30">
+        <p>Password:</p>
+        <input type="password" name="password">
+        <p>About you:</p>
+        <textarea name="about you" cols="30" rows="10">Enter here...</textarea>
+        <p>which one do you like?</p>
+        <br>
+        <br>
+        <input type="radio" name="food" value="apple" checked="checked"> Apple
+        <input type="radio" name="food" value="banana"> Banana
+        <input type="radio" name="food" value="cookies"> Cookies
+        <br>
+        <br>
+        <input type="checkbox" name="food" value="apple" checked="checked"> Apple
+        <input type="checkbox" name="food" value="banana"> Banana
+        <input type="checkbox" name="food" value="cookies"> Cookies
+        <br>
+        <br>
+        <select name="food">
+            <option value="none">---</option>
+            <option value="apple">Apple</option>
+            <option value="banana">Banana</option>
+            <option value="cookies">Cookies</option>
+        </select>
+        <br>
+        <br>
+        <select name="food" size="5" multiple="multiple">
+            <option value="apple">Apple</option>
+            <option value="banana">Banana</option>
+            <option value="cookies">Cookies</option>
+            <option value="donut">Donut</option>
+            <option value="icecream">Icecream</option>
+        </select>
+    </form>
+    <form action="http://127.0.0.1:5500/html5/form/form.html" method="post">
+        <p>Upload your song in MP3 format:</p>
+        <input type="file" name="user-song">
+        <br>
+        <input type="submit" value="Upload">
+        <br>
+        <input type="image" src="button.png" alt="add" width="100" height="20">
+        <br>
+        <br>
+    
+        <button><img src="add-icon.png" alt="add" width="20" height="20">Add</button>
+        <input type="hidden" name="bookmark" value="lyrics">
+        <!-- hidden type is invasible for user. it will be submitted to the server. -->
+    </form>
+    <form action="http://127.0.0.1:5500/html5/form/form.html" method="post">
+        <label for="username">Username:</label>
+        <input type="text" id="username">
+        <br>
+        <br>
+        <label>
+            Username:
+            <input type="text">
+        </label>
+    </form>
+    <br>
+    <fieldset>
+        <legend>
+            Contact details
+        </legend>
+        <label>
+            Email:
+            <br>
+            <input type="text" name="email">
+        </label>
+        <br>
+        <label>
+            Mobile:
+            <br>
+            <input type="text" name="mobile" required="required">
+        </label>
+        <br>
+        <!-- <label>
+            Date and Time:
+            <br>
+            <input type="date" name="depart">
+            <br>
+            <br>
+        </label>
+        <input type="time" name="time">
+        <input type="submit" value="Confirm"> -->
+    </fieldset>
+    <form action="http://example.org/subscribe.php">
+        <p>Please enter your email address:</p>
+        <input type="email" name="email">
+        <input type="submit" value="Enter">
+    </form>
+    <br>
+    <br>
+    <input type="search" name="search" placeholder="Enter keyword...">
+    <input type="submit" value="Submit">
+
+</body>
+</html>
