@@ -1,0 +1,95 @@
+body {
+    font-family: 'Oxygen', sans-serif;
+    font-size: 14px;
+    color: #fff;
+    background-color: #61122f;
+}
+
+#header-nav {
+    background-color: #f6b319;
+    border-radius: 0;
+    border: 0;
+}
+
+#logoimg {
+    background: url("/image/restaurant-logo_large.png") no-repeat;
+    width: 150px;
+    height: 150px;
+    margin: 10px 15px 10px 0;
+}
+
+.navbar-brand {
+    padding-top: 0px;
+}
+
+.navbar-brand h1 {
+    font-family: 'Lora', serif;
+    color: #557c3e;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+}
+
+h1{
+    margin-left: 0;
+    margin-right: 0;;
+}
+.navbar-brand p {
+    color: #000;
+    text-transform: uppercase;
+    font-size: .7em;
+    margin-top: 15px;
+}
+
+i {
+    color: #951C49;
+}
+
+.navbar-nav .nav-link:hover {
+    background: #E7E7E7;
+    text-align: center;
+
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: #951C49;
+    text-align: center;
+    padding: 15px;
+    height: 82.4px;
+}
+
+#phone {
+    margin-top: 5px;
+}
+
+#phone a {
+    /* Phone number */
+    text-align: right;
+    padding-bottom: 0;
+}
+
+#phone div {
+    /* We Deliver */
+    color: #557c3e;
+    text-align: right;
+    padding-right: 15px;
+}
+
+#nav-list a span {
+    font-size: 1.8em;
+}
+
+.navbar-collapse {
+    flex-direction: column;
+    align-self: flex-start;
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
