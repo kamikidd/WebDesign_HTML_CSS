@@ -12,14 +12,15 @@ body {
 }
 
 #logoimg {
-    /* background: url("../image/restaurant-logo_large.png") no-repeat; */
     width: 150px;
     height: 150px;
     margin: 10px 15px 10px 0;
 }
 
 .navbar-brand {
-    padding-top: 0px;
+    padding-top: 20px;
+    flex-direction: column;
+    align-self: flex-start;
 }
 
 .navbar-brand h1 {
@@ -36,7 +37,7 @@ body {
 
 h1{
     margin-left: 0;
-    margin-right: 0;;
+    margin-right: 0;
 }
 .navbar-brand p {
     color: #000;
@@ -51,19 +52,19 @@ i {
 
 .navbar-nav .nav-link:hover {
     background: #E7E7E7;
-    text-align: center;
-
+    padding: 0px;
 }
 
 .navbar-nav .nav-item .nav-link {
     color: #951C49;
     text-align: center;
     padding: 15px;
-    height: 82.4px;
+    font-size: 16px;
 }
 
-#phone {
-    margin-top: 5px;
+.navbar-nav > li > a{
+    line-height: 20px;
+
 }
 
 #phone a {
@@ -77,10 +78,11 @@ i {
     color: #557c3e;
     text-align: right;
     padding-right: 15px;
+    font-size: 16px;
 }
 
 #nav-list a span {
-    font-size: 1.8em;
+    font-size: 28.8px;
 }
 
 .navbar-collapse {
