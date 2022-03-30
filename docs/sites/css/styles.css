@@ -126,7 +126,7 @@ i {
 
     /* Home Page */
     .container-md .showimg {
-        background: url('/assets/images/jumbotron_1200.jpg') no-repeat;
+        background: url('../../assets/images/jumbotron_1200.jpg') no-repeat;
         height: 675px;
     }
 
@@ -138,7 +138,7 @@ i {
 
     /* Header */
     #logoimg {
-        background: url('/assets/images/restaurant-logo_medium.png') no-repeat;
+        background: url('../../assets/images/restaurant-logo_medium.png') no-repeat;
         width: 100px;
         height: 100px;
         margin: 5px 5px 5px 0;
@@ -147,7 +147,7 @@ i {
     /* End Header */
     /* Home Page */
     .container-md .showimg {
-        background: url('/assets/images/jumbotron_992.jpg') no-repeat;
+        background: url('../../assets/images/jumbotron_992.jpg') no-repeat;
         height: 558px;
     }
 
@@ -167,7 +167,7 @@ i {
 
     /* Home Page */
     .container-md .showimg {
-        background: url('/assets/images/jumbotron_768.jpg') no-repeat;
+        background: url('../../assets/images/jumbotron_768.jpg') no-repeat;
         height: 432px;
     }
 
