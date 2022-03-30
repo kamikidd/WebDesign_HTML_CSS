@@ -208,7 +208,7 @@ i {
 
     #nav-list a {
         display: flex;
-        align-items: end;
+        align-items: flex-end;
         justify-content: center;
         padding-top: 0px;
         margin-top: 0;
@@ -222,8 +222,6 @@ i {
     }
 
     /* Home Page */
-    .container-md {}
-
     .container-md .showimg {
         margin-top: 30px;
         padding: 0;
