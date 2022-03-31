@@ -99,10 +99,9 @@ i {
 
 .custom-toggler.navbar-toggler {
     border: 1px solid #61122f;
-    clear: both;
     margin-bottom: 8px;
     margin-top: -30px;
-    margin-right: 15px;
+    margin-right: 5px;
     padding: 1px 10px;
     align-self: flex-end;
 }
@@ -115,7 +114,7 @@ i {
 #main-content .showimg {
     box-shadow: 0 0 50px #3F0C1F;
     border: 2px solid #3F0C1F;
-    border-radius: 0.3rem;
+    border-radius: 6px;
 }
 
 /********** Large devices only **********/
@@ -157,7 +156,7 @@ i {
 /********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
     .navbar-collapse {
-        margin-left: -80px;
+        margin-left: -115px;
         align-self: flex-end;
     }
 
@@ -221,6 +220,24 @@ i {
         font-size: 1em;
     }
 
+    #call-btn >a {
+        background-color: #f6b319;
+        border: 2px solid white;
+        border-radius: 0.2rem;
+        font-size: 1.5em;
+        color: #951C49;
+        margin: 0 20px;
+        padding: 10px;
+        display: block;
+
+    }
+    #xs-deliver {
+        margin-top: 5px;
+        font-size: .7em;
+        letter-spacing: .1em;
+        text-transform: uppercase;
+      }
+      /* End Header */
     /* Home Page */
     .container-md .showimg {
         margin-top: 30px;
@@ -231,7 +248,7 @@ i {
 /********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
 @media (max-width: 479px) {
     .custom-toggler.navbar-toggler {
-        margin-left: -100px;
+        margin-left: -115px;
     }
 
     /* Header */
