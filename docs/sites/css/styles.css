@@ -5,6 +5,7 @@ body {
     background-color: #61122f;
 }
 
+/** HEADER **/
 .navbar {
     background-color: #f6b319;
     margin-bottom: 20px;
@@ -111,10 +112,50 @@ i {
     width: 22px;
 }
 
+/* END HEADER */
+
+/* HOME PAGE */
 #main-content .showimg {
     box-shadow: 0 0 50px #3F0C1F;
     border: 2px solid #3F0C1F;
     border-radius: 6px;
+    margin-bottom: 30px;
+}
+
+#menu-tile, #specials-tile, #map-tile {
+    height: 250px;
+    width: 100%;
+    margin-bottom: 15px;
+    position: relative;
+    border: 2px solid #3F0C1F;
+    overflow: hidden;
+}
+
+#menu-tile:hover, #specials-tile:hover, #map-tile:hover {
+    box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+#menu-tile {
+    background: url('../../assets/images/menu-tile.jpg') no-repeat;
+    background-position: center;
+}
+
+#specials-tile {
+    background: url('../../assets/images/specials-tile.jpg') no-repeat;
+    background-position: center;
+}
+
+#menu-tile span, #specials-tile span, #map-tile span {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1.6em;
+    text-transform: uppercase;
+    background-color: #000;
+    color: #fff;
+    opacity: .8;
 }
 
 /********** Large devices only **********/
@@ -220,7 +261,7 @@ i {
         font-size: 1em;
     }
 
-    #call-btn >a {
+    #call-btn>a {
         background-color: #f6b319;
         border: 2px solid white;
         border-radius: 0.2rem;
@@ -231,18 +272,26 @@ i {
         display: block;
 
     }
+
     #xs-deliver {
         margin-top: 5px;
         font-size: .7em;
         letter-spacing: .1em;
         text-transform: uppercase;
-      }
-      /* End Header */
+    }
+
+    /* End Header */
     /* Home Page */
     .container-md .showimg {
         margin-top: 30px;
         padding: 0;
     }
+
+    #menu-tile, #specials-tile {
+        width: 360px;
+        margin: 0 auto 15px;
+    }
+
 }
 
 /********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
@@ -258,4 +307,9 @@ i {
     }
 
     /* End Header */
+    /* Home page */
+    #menu-tile, #specials-tile {
+        width: 280px;
+        margin: 0 auto 15px;
+    }
 }
