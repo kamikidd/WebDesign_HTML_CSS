@@ -245,7 +245,9 @@ i {
 
     #header {
         height: 142px;
+        align-items: flex-start;
     }
+
 
     /* Home Page */
     #main-content .showimg {
