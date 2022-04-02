@@ -15,6 +15,7 @@ body {
 
 #header {
     flex-direction: row;
+    align-items: flex-start;
 }
 
 .navbar-brand {
@@ -245,7 +246,6 @@ i {
 
     #header {
         height: 142px;
-        align-items: flex-start;
     }
 
 
