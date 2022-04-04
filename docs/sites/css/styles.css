@@ -73,6 +73,9 @@ i {
     line-height: 20px;
 }
 
+.navbar-nav .active{
+    background: #E7E7E7;
+}
 
 #phone a {
     /* Phone number */
