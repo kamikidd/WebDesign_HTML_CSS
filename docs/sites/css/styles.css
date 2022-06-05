@@ -452,6 +452,7 @@ i {
     .footer .row div hr {
         width: 50%;
         margin: 20px auto;
+        opacity: 1;
     }
 
     #map-tile iframe {
