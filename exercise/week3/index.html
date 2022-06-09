@@ -5,65 +5,42 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>David Chu's China Bistro</title>
-
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Oxygen:wght@300;400;700&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Viga&display=swap"
         rel="stylesheet">
-    <script src="https://kit.fontawesome.com/fdec6d96e8.js" crossorigin="anonymous"></script>
+    <title>Assignment Solution for Module 3</title>
+
 </head>
 
 <body>
     <header>
-        <nav id="header-nav" class="navbar navbar-expand-lg navbar-light">
-            <div class="container">
-                <a href="index.html" class="float-start d-none d-lg-block">
-                    <div id="logoimg"></div>
-                </a>
-                <div class="navbar-brand">
-                    <a href="index.html" class="text-decoration-none">
-                        <h1>David Chu's China Bistro</h1>
-                    </a>
-                    <p>
-                        <img src="/image/star-k-logo.png" alt="Kosher certified">
-                        <span>Kosher Certified</span>
-                    </p>
-                </div>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsable-nav"
-                    aria-controls="collapsable-nav" aria-expanded="false" aria-label="Toggle navigation">
+        <nav class="navbar navbar-expand-md navbar-dark bg-primary">
+            <div id="navbar-compo" class="container-md d-flex">
+                <a class="navbar-brand" href="#">Food, LLC</a>
+                <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapsable-nav" aria-controls="collapsable-nav" aria-expanded="false"
+                    aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="collapsable-nav">
-                    <ul id="nav-list" class="navbar-nav ms-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="menu-categories.html">
-                                <span>
-                                    <i class="fa-solid fa-utensils"></i>
-                                </span>
-                                <br class=".d-none .d-sm-block">Menu
+                    <ul class="navbar-nav" id="nav-list">
+                        <li class="nav-item d-md-none">
+                            <a id="link-top" class="nav-link" href="#title-chicken">
+                                <br>Chicken
                             </a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">
-                                <span><i class="fa-solid fa-circle-info"></i></span>
-                                <br class=".d-none .d-sm-block">About
+                        <li class="nav-item d-md-none">
+                            <a class="nav-link" href="#title-beef">
+                                <br>Beef
                             </a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">
-                                <span><i class="fa-solid fa-award"></i>
-                                </span>
-                                <br class=".d-none .d-sm-block">Awards
+                        <li class="nav-item d-md-none">
+                            <a class="nav-link" href="#title-sushi">
+                                <br>Sushi
                             </a>
-                        </li>
-                        <li id="phone" class=".d-none .d-sm-block nav-item">
-                            <a class="nav-link" href="tel:410-602-5008">
-                                <span>410-602-5008</span>
-                            </a>
-                            <div>* We Deliver</div>
                         </li>
                     </ul>
                 </div>
@@ -71,11 +48,98 @@
         </nav>
     </header>
 
+    <div id="main-content" class="container-md">
+        <h1 id="top" class="text-center">Our Menu</h1>
+        <br>
 
+
+        <section class="row">
+            <div class="col-lg-4 col-md-6 col-xs-12">
+                <div class="menu-chicken">
+                    <div>
+                        <h3 id="title-chicken">Chicken</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque inventore esse minima
+                            incidunt
+                            impedit. Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque
+                            voluptatibus
+                            modi reprehenderit minima, itaque cupiditate totam.Asperiores, voluptatem. Sint aspernatur
+                            provident, rem odio dolorem eaque voluptatibus modi reprehenderit minima, itaque cupiditate
+                            totam.Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque voluptatibus
+                            modi reprehenderit minima, itaque cupiditate totam.
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque inventore esse minima
+                            incidunt
+                            impedit. Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque
+                            voluptatibus
+                            modi reprehenderit minima, itaque cupiditate totam.Asperiores, voluptatem. Sint aspernatur
+                            provident, rem odio dolorem eaque voluptatibus modi reprehenderit minima, itaque cupiditate
+                            totam.Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque voluptatibus
+                            modi reprehenderit minima, itaque cupiditate totam.Sint aspernatur provident, rem odio
+                            dolorem eaque voluptatibus
+                            modi reprehenderit minima, itaque cupiditate totam.</p>
+                        <p>(End of Chicken section) <br><a href="#top">Back To Top</a></p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-xs-12">
+                <div class="menu-beef">
+                    <div>
+                        <h3 id="title-beef">Beef</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque inventore esse minima
+                            incidunt
+                            impedit. Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque
+                            voluptatibus
+                            modi reprehenderit minima, itaque cupiditate totam.Asperiores, voluptatem. Sint aspernatur
+                            provident, rem odio dolorem eaque voluptatibus modi reprehenderit minima, itaque cupiditate
+                            totam.Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque voluptatibus
+                            modi reprehenderit minima, itaque cupiditate totam.
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque inventore esse minima
+                            incidunt
+                            impedit. Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque
+                            voluptatibus
+                            modi reprehenderit minima, itaque cupiditate totam.Asperiores, voluptatem. Sint aspernatur
+                            provident, rem odio dolorem eaque voluptatibus modi reprehenderit minima, itaque cupiditate
+                            totam.Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque voluptatibus
+                            modi reprehenderit minima, itaque cupiditate totam.Sint aspernatur provident, rem odio
+                            dolorem eaque voluptatibus
+                            modi reprehenderit minima, itaque cupiditate totam.</p>
+                        <p>(End of Beef section) <br><a href="#top">Back to Top</a></p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-12 col-xs-12">
+                <div class="menu-sushi">
+                    <div>
+                        <h3 id="title-sushi">Sushi</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque inventore esse minima
+                            incidunt
+                            impedit. Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque
+                            voluptatibus
+                            modi reprehenderit minima, itaque cupiditate totam.Asperiores, voluptatem. Sint aspernatur
+                            provident, rem odio dolorem eaque voluptatibus modi reprehenderit minima, itaque cupiditate
+                            totam.Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque voluptatibus
+                            modi reprehenderit minima, itaque cupiditate totam.
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque inventore esse minima
+                            incidunt
+                            impedit. Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque
+                            voluptatibus
+                            modi reprehenderit minima, itaque cupiditate totam.Asperiores, voluptatem. Sint aspernatur
+                            provident, rem odio dolorem eaque voluptatibus modi reprehenderit minima, itaque cupiditate
+                            totam.Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque voluptatibus
+                            modi reprehenderit minima, itaque cupiditate totam.Sint aspernatur provident, rem odio
+                            dolorem eaque voluptatibus
+                            modi reprehenderit minima, itaque cupiditate totam.</p>
+                        <p>(End of Sushi section) <br><a href="#top">Back to Top</a></p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </div>
     <script src="js/jquery-3.6.0.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/script.js"></script>
-
 </body>
 
 </html>
